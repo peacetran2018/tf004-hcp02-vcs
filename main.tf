@@ -1,7 +1,7 @@
 variable "env" {
   description = "Environment label used in the generated name"
   type        = string
-  default     = "staging"
+  default     = "prod"
 }
 
 resource "random_pet" "app" {
